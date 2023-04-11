@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zilda - Moda íntima e Praia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <a id="logo" href="">Logo</a>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="/">Maiôs</a></li>
+          <li><a href="/">Biquínis</a></li>
+          <li><a href="/">Babydoll</a></li>
+          <li><a href="/">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="info-loja">
+      <img src="assets/logo.png" alt="Logo" />
+      <div id="info-text">
+        <h1>Renove seu guarda-roupa com as últimas tendências da moda.</h1>
+      </div>
+    </section>
+
+    <section class="product">
+      <h2>Maiôs</h2>
+      <section class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+        <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+        <ul class="slides-container" id="slides-container">
+          <li class="slide"></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+        </ul>
+      </section>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
